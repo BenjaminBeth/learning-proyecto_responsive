@@ -1,0 +1,185 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* Starter */
+
+/* Click , funcion menu desplegable mobil */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+  height:80px;
+}
+nav h1{
+  font-size:1.875em;
+  font-family: didotregular;
+  color:#707070;
+}
+
+.inputlabel{
+  width:3em;
+  height: 2.5em;
+}
+
+#activar, .desplegable{
+  display:none;
+}
+
+.desplegable{
+  background-color:rgba(255,255,255, 0.25);
+  position:absolute;
+  z-index:10;
+  right:0;
+  top:80px;
+  padding:1rem;
+  border: 1px solid grey;
+}
+
+.desplegable_lista li{
+  line-height: 3rem;
+  font-size: 2rem;
+  text-align: right;
+  list-style: none;
+}
+
+#activar:checked ~ .desplegable{
+  display:block;
+}
+
+/* Main */
+
+  /* Finalizado el header,
+     agregado el titulo, y el lorem
+     ya centrado. */
+.perro_header{
+  width:100%;
+}
+.titulo_dogs{
+  display:flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  }
+.titulo_dogs_titulo{
+  font-family: didotregular;
+  color:#707070;
+  font-size: 31.87vw;
+  width:90%;
+
+}
+.dogs_lorem{
+  display:flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.dogs_lorem_p{
+  width:90%;
+  font-family: didotregular;
+  color:#707070;
+  font-size:5vw;
+  text-align:justify;
+  padding-top:10px;
+}
+
+  /* Segunda section, titulo
+     servicios e imágenes*/
+
+.dogs_servicios{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  padding-top: 3rem;
+  /* margin:0 auto;*/
+}
+.dogs_servicios_titulo{
+  font-family: didotregular;
+  color:#707070;
+  font-size: 16vw;
+  width:90%;
+}
+.dogs_servicios_imagenes_1{
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+}
+.imagen_1{
+  width:90%;
+  height:11.6875em;
+}
+.dogs_servicios_imagenes_2{
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+}
+.imagen_2{
+  width:90%;
+  height:11.6875em;
+}
+.dogs_servicios_imagenes_3{
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+
+}
+.imagen_3{
+  width:90%;
+  height:11.6875em;
+}
+
+.dogs_trabajos{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  padding-top: 3rem;
+  /* margin:0 auto;*/
+}
+.dogs_trabajos_titulo{
+  font-family: didotregular;
+  color:#707070;
+  font-size: 16vw;
+  width:90%;
+}
+.dogs_trabajos_imagenes_1{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+.imagen_5{
+  width:90%;
+  height:40.9375em;
+}
+.dogs_lorem{
+  display:flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.dogs_lorem_p{
+  width:90%;
+  font-family: didotregular;
+  color:#707070;
+  font-size:5vw;
+  text-align:justify;
+  padding-top:10px;
+}
+
+.dogs_contactar{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  padding-top: 3rem;
+  /* margin:0 auto;*/
+}
+.dogs_contactar_titulo{
+  font-family: didotregular;
+  color:#707070;
+  font-size: 13.5vw;
+  width:90%;
+}
